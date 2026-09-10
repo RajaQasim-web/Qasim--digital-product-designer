@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Novael - digital product designer portfolio." />
+  <title>Novael — Digital Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress"><span id="scrollProgress"></span></div>
+  <header class="site-header" id="home">
+    <a class="brand" href="#home" aria-label="Novael home">N<span>O</span>VAEL</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#journal">Journal</a>
+      <a href="#contact" class="nav-cta">Let's talk ↗</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main>
+    <section class="hero shell reveal">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> Independent digital designer</div>
+        <h1>Designing digital products that feel <em>clear, alive,</em> and human.</h1>
+        <p class="hero-text">I'm Novael — a product designer focused on thoughtful interfaces, brand systems, and experiences that turn complex ideas into simple journeys.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Explore selected work <span>↗</span></a>
+          <a class="text-link" href="#contact">Start a project <span>→</span></a>
+        </div>
+        <div class="hero-meta"><span>Available for select projects</span><span>Based in Dubai · Working worldwide</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="portrait-frame">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1100&q=88" alt="Professional creative portrait" loading="eager">
+          <div class="portrait-tag">01 — Focus / Curiosity</div>
+        </div>
+        <div class="orbit-card"><span>Selected focus</span><strong>Product<br>Experience</strong><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <div class="shell intro-grid reveal">
+        <p class="section-kicker">01 / About</p>
+        <div>
+          <h2>I work where strategy, interaction, and visual craft meet.</h2>
+          <p class="lead">From an early product sketch to a polished launch, I help teams make digital experiences more useful, memorable, and easy to navigate.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="section-head reveal">
+        <div><p class="section-kicker">02 / Selected work</p><h2>Ideas turned<br><em>into experiences.</em></h2></div>
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button><button class="filter" data-filter="product">Product</button><button class="filter" data-filter="brand">Brand</button><button class="filter" data-filter="web">Web</button>
+        </div>
+      </div>
+      <div class="work-grid" id="workGrid">
+        <article class="project-card project-large reveal" data-category="product">
+          <button class="project-open" data-modal="1" aria-label="Open project details">
+            <div class="project-image"><img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1400&q=88" alt="Interface design workspace" loading="lazy"><span class="project-no">01</span></div>
+            <div class="project-info"><div><h3>Orbit Finance</h3><p>Product design · Fintech</p></div><span>↗</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="brand">
+          <button class="project-open" data-modal="2" aria-label="Open project details">
+            <div class="project-image"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=88" alt="Brand identity materials" loading="lazy"><span class="project-no">02</span></div>
+            <div class="project-info"><div><h3>Field Notes</h3><p>Brand system · Editorial</p></div><span>↗</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <button class="project-open" data-modal="3" aria-label="Open project details">
+            <div class="project-image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=88" alt="Developer workspace with laptop and code" loading="lazy"><span class="project-no">03</span></div>
+            <div class="project-info"><div><h3>Layer / Studio</h3><p>Website · Creative technology</p></div><span>↗</span></div>
+          </button>
+        </article>
+        <article class="project-card reveal" data-category="product">
+          <button class="project-open" data-modal="4" aria-label="Open project details">
+            <div class="project-image"><img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=88" alt="Modern mobile app interface context" loading="lazy"><span class="project-no">04</span></div>
+            <div class="project-info"><div><h3>Pulse Health</h3><p>UX direction · Mobile app</p></div><span>↗</span></div>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="shell">
+        <div class="section-head reveal"><div><p class="section-kicker">03 / Capabilities</p><h2>What I bring<br><em>to the table.</em></h2></div><p class="head-note">A flexible design practice built for teams that value clarity, momentum, and strong ideas.</p></div>
+        <div class="services-list">
+          <div class="service reveal"><span>01</span><div><h3>Product Design</h3><p>Flows, wireframes, high-fidelity UI, prototypes, and design systems for useful digital products.</p></div><b>↗</b></div>
+          <div class="service reveal"><span>02</span><div><h3>Brand & Visual Systems</h3><p>Visual identities, launch kits, typography, color systems, and guidelines with a point of view.</p></div><b>↗</b></div>
+          <div class="service reveal"><span>03</span><div><h3>Web Experience</h3><p>Conversion-aware websites that pair strong storytelling with polished responsive interaction.</p></div><b>↗</b></div>
+          <div class="service reveal"><span>04</span><div><h3>Creative Direction</h3><p>Concept development, content direction, design reviews, and a clear path from rough idea to launch.</p></div><b>↗</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="process">
+      <div class="process-wrap reveal">
+        <div><p class="section-kicker">04 / Process</p><h2>A simple path<br><em>to better work.</em></h2></div>
+        <div class="steps">
+          <div class="step"><span>01</span><h3>Discover</h3><p>Goals, users, constraints, opportunities.</p></div>
+          <div class="step"><span>02</span><h3>Shape</h3><p>Structure, direction, wireframes, prototypes.</p></div>
+          <div class="step"><span>03</span><h3>Refine</h3><p>Visual polish, interaction, testing, iteration.</p></div>
+          <div class="step"><span>04</span><h3>Deliver</h3><p>Handoff, documentation, launch support.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="shell quote-grid reveal">
+        <div class="quote-mark">“</div>
+        <blockquote id="quote">Novael brings calm to complicated products. The final experience felt obvious — in the best possible way.</blockquote>
+        <div class="quote-person"><div class="avatar">AM</div><div><strong>Ari Morgan</strong><span>Product Lead · Northstar</span></div></div>
+      </div>
+    </section>
+
+    <section class="section shell stats-section reveal">
+      <div class="stats-grid">
+        <div><strong class="counter" data-target="28">0</strong><span>Projects launched</span></div>
+        <div><strong class="counter" data-target="12">0</strong><span>Design systems</span></div>
+        <div><strong class="counter" data-target="7">0</strong><span>Years exploring</span></div>
+        <div><strong class="counter" data-target="94">0</strong><span>Client return rate %</span></div>
+      </div>
+    </section>
+
+    <section class="section journal" id="journal">
+      <div class="shell">
+        <div class="section-head reveal"><div><p class="section-kicker">05 / Journal</p><h2>Notes from<br><em>the process.</em></h2></div><a class="text-link" href="#contact">Read all notes →</a></div>
+        <div class="journal-grid">
+          <article class="journal-card reveal"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=82" alt="Laptop workspace" loading="lazy"><p>Process · 6 min</p><h3>Designing clarity into a complicated product</h3><a href="#contact">Read article →</a></article>
+          <article class="journal-card reveal"><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=82" alt="Creative team collaborating" loading="lazy"><p>Teamwork · 4 min</p><h3>Why good critique makes better interfaces</h3><a href="#contact">Read article →</a></article>
+          <article class="journal-card reveal"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=82" alt="Team meeting in office" loading="lazy"><p>Strategy · 5 min</p><h3>Five questions before opening Figma</h3><a href="#contact">Read article →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-grid reveal">
+        <div><p class="section-kicker">06 / Contact</p><h2>Have a product that deserves <em>better?</em></h2><p class="lead">Tell me what you're building, what feels stuck, and what success looks like. I'll reply with next steps.</p></div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Project type<select name="type"><option>Product design</option><option>Website</option><option>Brand identity</option><option>Other</option></select></label>
+          <label>Brief<textarea name="brief" rows="4" placeholder="A few lines about the project..."></textarea></label>
+          <button class="btn btn-primary" type="submit">Send enquiry <span>↗</span></button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-grid"><a class="brand" href="#home">N<span>O</span>VAEL</a><p>Digital product design, web experiences, and creative direction.</p><div><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></div></div><div class="shell footer-bottom"><span>© 2026 Novael Studio</span><span>Crafted with curiosity · ↑</span></div></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Project details">
+      <button class="modal-close" data-close aria-label="Close project details">×</button>
+      <p class="section-kicker" id="modalKicker">Project</p><h2 id="modalTitle">Project title</h2><p id="modalText">Project description</p>
+      <div class="modal-tags" id="modalTags"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
